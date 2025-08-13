@@ -302,7 +302,9 @@ table, th, td {
 
 
 ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+body {font-family: Proxima Nova;
+                src: url('Fonts/Fontspring-DEMO-proximanova-regular.otf');
+            }
 
 /* Month header */
 .month {
@@ -591,7 +593,9 @@ a:active {
   }
 }
 
-body {font-family: Arial;}
+body {font-family:Proxima Nova;
+                src: url('Fonts/Fontspring-DEMO-proximanova-regular.otf');
+            }
 
 /* Style the tab */
 .tab {
@@ -630,6 +634,8 @@ body {font-family: Arial;}
   border-top: none;
 }
 
+/*Wiki stylization*/
+
 .wiki-metadata {
 display: table;
 float: right; 
@@ -640,7 +646,108 @@ max-width: 500px;
 display: block; /* puts Mimmy's picture in its own block */
 margin: 0 auto; /* centers the portrait of Mimmy */
 }
+            .charactermain-image {
+                height: 350px;
+                width: 300px;
+                margin-left:auto;
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                background-position: center;
+                border: 1px black solid;
+            }
 
+            .galleryimage {
+              float: left;
+              width: 170px;
+              height: 170px;
+              background-repeat: no-repeat;
+              background-size: auto 100%;
+              background-position: center;
+              margin: 10px;
+              border: 1px black solid;
+            }
+
+ .imagehere {
+                height: 150px;
+                width: 150px;
+                margin-left:auto;
+                margin-right:auto;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: auto 100%;
+ }
+
+            .characterprofile {
+                float: left;
+                width: 100%;
+                margin: 0px 0px 30px 0px;
+              }
+                
+            main {
+                padding: 20px;
+            }
+                
+            .charactermain-image {
+                width: 100%;
+                margin: 0px 0px 10px 00px;
+              }
+
+                .characterprofile {
+                float: left;
+                width: 100%;
+                margin: 0px 0px 30px 0px;
+              }
+                
+            main {
+                padding: 20px;
+            }
+                
+            .charactermain-image {
+                width: 100%;
+                margin: 0px 0px 10px 00px;
+              }
+
+            /* MEDIA QUERY */
+                @media only screen and (max-width: 1350px) {
+              main {
+                float: left;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                margin: 10px 0px 0px 00px;
+                padding: 0px;
+              }
+            }
+
+            @media only screen and (max-width: 1100px) {
+              table, .characterprofile {
+                float: left;
+                width: 100%;
+                margin: 10px 0px 0px 00px;
+              }
+                
+            .characterprofile {
+                float: left;
+                width: 100%;
+                margin: 0px 0px 30px 0px;
+              }
+                
+            main {
+                padding: 20px;
+            }
+                
+            .charactermain-image {
+                width: 100%;
+                margin: 0px 0px 10px 00px;
+              }
+
+            }
+
+            .gallery {
+                background-color: none;
+                padding: 10px;
+                overflow: hidden;
+            }
 /*table
 */
 table, th, td {
