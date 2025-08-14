@@ -25,7 +25,6 @@
     (bold, italic, etc. T_T) which is why there are so many!
     
  */
-
           @font-face {
                 font-family: Proxima Nova;
                 src: url('Fonts/Fontspring-DEMO-proximanova-regular.otf');
@@ -286,7 +285,7 @@ table, th, td {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .active, .collapsible:hover {
@@ -820,3 +819,15 @@ table, th, td {
 body {
     cursor: url("http://www.rw-designer.com/cursor-extern.php?id=118353"), auto;
 }
+
+ h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+
+p {
+  font-size: 17px;
+}            
